@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="apply_box">
+            <h1>Application form
+                <span class="title_small">(web)</span>
+            </h1>
+            
+            <form action="">
+                <div class="form_container">
+                <div class="form_control">
+                    <label for="first_name">First Name</label>
+                    <input id="first_name" type="text" placeholder="Enter Your First Name">
+                </div>
+
+                <div class="form_control">
+                    <label for="last_name">Last Name</label>
+                    <input id="last_name" type="text" placeholder="Enter Your Last Name">
+                </div>
+
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Enter Your Email">
+                </div>
+
+                <div class="form_control">
+                    <label for="phone_no">Mobile No</label>
+                    <input id="phone_no" type="text" placeholder="Enter Your Mobile Number">
+                </div>
+            
+            <div class="textArea_control">
+                <label for="address">Address</label>
+                <textarea id="address" row="4" cols="30" placeholder="Enter Your Address"></textarea>
+                
+            </div>
+                <div class="form_control">
+                    <label for="job_role">Job Role</label>
+                    <select>
+                      <option value="">Select Job Role</option>
+                      <option value="trainee">Software Engineer Trainee</option>
+                      <option value="frontend">Frontend Developer</option>
+                      <option value="backend">Backend Developer</option>
+
+                    </select>
+                    
+                </div>
+                <div class="form_control">
+                    <label for="city">City</label>
+                    <input id="city" type="text" placeholder="Enter Your City">
+                    
+                </div>
+                <div class="form_control">
+                    <label for="date">Date</label>
+                    <input id="date" type="date">
+                    
+                </div>
+
+                <div class="form_control">
+                    <label for="upload_cv">Upload CV</label>
+                    <input id="upload_cv" type="file">
+                    
+                </div>
+            </div>
+                <div class="submit_button">
+                    <button id="button" type="submit">Apply Now</button>
+                </div>
+           
+            </form>
+       
+
+        </div>
+    </div>
+</body>
+
+</html>
